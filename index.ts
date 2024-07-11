@@ -13,7 +13,8 @@ let devProcess: import("node:child_process").ChildProcess | null = null
 
 // 构建完成时的输出
 const BUILD_DONE_OUTPUT = [
-    'Build complete. The dist directory is ready to be deployed.'
+    'Build complete. The dist directory is ready to be deployed.',
+    '✓ built in',
 ]
 
 const log = function (...args: any[]) {
